@@ -1,0 +1,33 @@
+/* AdminHome.css */
+.body{
+    height: 70vh;
+    margin-top: 10%;
+    text-align: center;
+}
+.body h1{
+    color: blue;
+    font-size: 35px;
+    
+}
+.admin-home {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    height: 25vh;
+  }
+  
+  .flex-box {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .flex-box h2 {
+    margin-bottom: 10px;
+  }
+  .flex-box p{
+    font-size: 35px;
+    color: blueviolet;
+    font-weight: bolder;
+  }

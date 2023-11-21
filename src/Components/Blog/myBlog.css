@@ -1,0 +1,23 @@
+/* MyBlogs.css */
+.my-blogs {
+    margin: 20px;
+  }
+  
+  .my-blogs h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .blog-cards {
+    margin-top:5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Media queries for responsive design */
+  @media (max-width: 768px) {
+    .blog-cards {
+      grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    }
+  }

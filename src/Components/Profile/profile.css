@@ -1,0 +1,258 @@
+.dashboard-container {
+    display: flex;
+    height: 130vh; /* Set height to 100vh for full viewport height */
+  }
+  
+  .dashboard-content {
+    flex: 1;
+    padding: 20px;
+    text-align: center; /* Center the content */
+  }
+  
+  .dashboard-content h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold; /* Bold letters */
+  }
+  
+  /* profile.css */
+.profile-pic {
+  width: 200px; /* Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+ .input{
+    outline: none;
+    border: none;
+    width: 370px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #edf5f3;
+    margin: 5px 0;
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .edit, .edit2{
+    text-align: left;
+    margin-left: 35%;
+  }
+
+  .edit2 p{
+    outline: none;
+    border: none;
+    width: 370px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #edf5f3;
+    margin: 5px 0;
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .save{
+    outline: none;
+    border: none;
+    width: 370px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #edf5f3;
+    color: green;
+    margin: 5px 0;
+    font-size: 14px;
+    margin-left: 35%;
+  }
+
+  .dashboard-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .dashboard-sidebar {
+    flex: 0 0 200px;
+    background-color: #edf5f3;
+    color: #000000;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+  }
+  
+  .dashboard-sidebar a {
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 0;
+    transition: background-color 0.3s;
+    text-align: center;
+    font-size: large;
+
+  }
+  
+  .dashboard-sidebar a:hover {
+    background-color: #3bb19b;
+  }
+  
+  .dashboard-sidebar a.selected {
+    background-color: #edf5f3;
+  }
+  
+  .dashboard-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  /*Faq Conatiner*/
+  .faq-container h2{
+    color: black;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  
+  details{
+    background-color: #303030;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  
+  summary {
+    padding: .5em 1.3rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;  
+    transition: height 1s ease;
+  }
+  
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  
+  summary:after{
+    content: "\002B";
+  }
+  
+  details[open] summary {
+      border-bottom: 1px solid #aaa;
+      margin-bottom: .5em;
+  }
+
+  details summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 0;
+}
+  
+  details[open] summary:after{
+    content: "\00D7";
+  }
+  
+  details[open] div{
+    padding: .5em 1em;
+  }
+
+
+  /* delete conatiner*/
+  .delete-container{
+    text-align: left;
+  }
+  .delete-container h2{
+    color: black;
+    text-align: left;
+    margin-bottom: 5px;
+    margin-top: 20px;
+  }
+
+  .delete-container span{
+    background-color: rgb(197, 45, 45);
+    color: white;
+    padding: 5px;
+    margin-top: 30px;
+  }
+
+
+
+
+
+  /* Responsive Sidebar */
+  @media (max-width: 768px) {
+    .dashboard-container {
+      flex-direction: column;
+    }
+  
+    .dashboard-sidebar {
+      flex: 0 0 30%;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+  }
+
+  @media (max-width: 998px) {
+    .edit, .edit2{
+      text-align: left;
+      margin-left:25%;
+    }
+    .save{
+      text-align: center;
+      margin-left: 25%;
+    }
+    .dashboard-container {
+      display: flex;
+      height: 80vh; /* Set height to 100vh for full viewport height */
+    }
+  }
+
+  @media (max-width: 630px) {
+    .edit, .edit2{
+      text-align: left;
+      margin-left:15%;
+    }
+    .save{
+      text-align: center;
+      margin-left: 15%;
+    }
+    .dashboard-container {
+      display: flex;
+      height: 80vh; /* Set height to 100vh for full viewport height */
+    }
+  }
+
+  @media (max-width: 500px) {
+    .edit, .edit2{
+      text-align: left;
+      margin-left:15%;
+    }
+    .save{
+      text-align: center;
+      margin-left: 15%;
+    }
+  
+
+    .edit2 p{
+      outline: none;
+      border: none;
+      width: 270px;
+      padding: 10px;
+      border-radius: 10px;
+      background-color: #edf5f3;
+      margin: 5px 0;
+      font-size: 14px;
+      text-align: left;
+    }
+  
+    .save{
+      outline: none;
+      border: none;
+      width: 270px;
+      padding: 10px;
+      border-radius: 10px;
+      background-color: #edf5f3;
+      color: green;
+      margin: 5px 0;
+      font-size: 14px;
+      margin-left: 35%;
+    }
+    .dashboard-container {
+      display: flex;
+      height: 80vh; /* Set height to 100vh for full viewport height */
+    }
+  }

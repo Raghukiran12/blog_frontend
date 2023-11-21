@@ -1,0 +1,39 @@
+/* UsersList.css */
+
+.users-list {
+    padding: 20px;
+  }
+  
+  .user-cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .user-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    max-width: 200px;
+  }
+  
+  .user-card img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .user-card button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .user-card button:hover {
+    background-color: #bd2130;
+  }
+  
